@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Maria Copot"
 title_separator          : "-"
 name                     : &name "Maria Copot"
-description              : &description "PhD student at Université Paris Cité"
+description              : &description "Postdoctoral Scholar at The Ohio State University"
 url                      : https://copotm.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "CopotM/CopotM.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Maria Copot"
   avatar           : "profile.jpg"
-  bio              : "PhD student at Université Paris Cité"
-  location         : "Paris, France"
+  bio              : "Postdoctoral Scholar at The Ohio State University"
+  location         : "Columbus, OH, USA"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=mkty-cMAAAAJ"
