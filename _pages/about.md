@@ -20,7 +20,7 @@ and statistical modeling to test claims made by morphological theories.
 I am interested in testing theories of lexical organisation with experimental and corpus data. I am also interested in directly modeling lexical dynamics, and testing the predictions such models make about language processing and change.
 3. **Extralinguistic factors and morphological phenomena** Considering morphological factors alone makes
 incorrect predictions about phenomena such as defectiveness and overabundance. I use experimental evidence
-to gain insights about these phenomena by adopting the framing that language is a social tool for
+to gain insights about these phenomena by adopting the framing of language as a social tool for
 communication.
 
 Other things I am involved in:
