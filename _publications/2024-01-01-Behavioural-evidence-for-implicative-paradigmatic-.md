@@ -12,5 +12,3 @@ citation: 'Maria Copot, Olivier Bonami. (2024). &quot;Behavioural evidence for i
 Maria Copot, Olivier Bonami. (2024). "Behavioural evidence for implicative paradigmatic relations". <i>Mental Lexicon</i>. 18, (2), 177--217.
 
 [Access paper here](https://benjamins.com/catalog/ml.22020.cop)
-
-Recommended citation: Maria Copot, Olivier Bonami. (2024). "Behavioural evidence for implicative paradigmatic relations". <i>Mental Lexicon</i>. 18, (2), 177--217.

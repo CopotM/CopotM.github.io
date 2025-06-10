@@ -12,5 +12,3 @@ citation: 'Timothee Mickus, Maria Copot. (2024). &quot;Stranger than paradigms: 
 Timothee Mickus, Maria Copot. (2024). "Stranger than paradigms: word embedding benchmarks don't align with inflectional morphology". <i>Society for Computation in Linguistics</i>. 7, (1), 173--189.
 
 [Access paper here](https://aclanthology.org/2024.scil-1.17/)
-
-Recommended citation: Timothee Mickus, Maria Copot. (2024). "Stranger than paradigms: word embedding benchmarks don't align with inflectional morphology". <i>Society for Computation in Linguistics</i>. 7, (1), 173--189.

@@ -12,5 +12,3 @@ citation: 'Maria Copot, Olivier Bonami. (2024). &quot;Baseless derivation: the b
 Maria Copot, Olivier Bonami. (2024). "Baseless derivation: the behavioural reality of derivational paradigms". <i>Cognitive Linguistics</i>.
 
 [Access paper here](https://www.degruyterbrill.com/document/doi/10.1515/cog-2023-0018/html?lang=en)
-
-Recommended citation: Maria Copot, Olivier Bonami. (2024). "Baseless derivation: the behavioural reality of derivational paradigms". <i>Cognitive Linguistics</i>.

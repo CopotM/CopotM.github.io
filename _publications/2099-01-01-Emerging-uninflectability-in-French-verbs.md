@@ -10,5 +10,3 @@ citation: 'Maria Copot, Ninoh Da Silva, Ahmed Beji, Arno Watiez, Olivier Bonami.
 Maria Copot, Ninoh Da Silva, Ahmed Beji, Arno Watiez, Olivier Bonami. (in press). "Emerging uninflectability in French verbs". In Uninflectedness. Language Science Press.
 
 
-
-Recommended citation: Maria Copot, Ninoh Da Silva, Ahmed Beji, Arno Watiez, Olivier Bonami. (in press). "Emerging uninflectability in French verbs". In Uninflectedness. Language Science Press.

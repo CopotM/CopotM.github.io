@@ -10,5 +10,3 @@ citation: 'Sacha Beniamine, Olivier Bonami, Maria Copot. (in press). &quot;Morph
 Sacha Beniamine, Olivier Bonami, Maria Copot. (in press). "Morphologie implicative et conjugaison du français [Implicative morphology and French conjugation]". <i>Lexique</i>.
 
 
-
-Recommended citation: Sacha Beniamine, Olivier Bonami, Maria Copot. (in press). "Morphologie implicative et conjugaison du français [Implicative morphology and French conjugation]". <i>Lexique</i>.

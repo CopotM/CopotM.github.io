@@ -10,5 +10,3 @@ citation: 'Maria Copot, Andrea Sims. (accepted). &quot;Community detection in in
 Maria Copot, Andrea Sims. (accepted). "Community detection in inflectional networks". <i>Proceedings of the Association for Cognitive Science</i>.
 
 
-
-Recommended citation: Maria Copot, Andrea Sims. (accepted). "Community detection in inflectional networks". <i>Proceedings of the Association for Cognitive Science</i>.
