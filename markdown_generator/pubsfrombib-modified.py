@@ -320,7 +320,7 @@ citation: '{html_escape(citation)}'
         else:
             return 'Conference Talk'
     
-    # Process each talk
+   # Process each talk
     for bib_id, entry in talks:
         fields = entry.fields
         
@@ -331,6 +331,21 @@ citation: '{html_escape(citation)}'
         talk_type = get_talk_type(entry)
         year = clean_field(fields.get('year', ''))
         location = clean_field(fields.get('address', ''))
+        
+        # Build citation string for talks
+        citation_parts = [authors]
+        
+        if year and year.lower() not in ['in press', 'accepted']:
+            citation_parts.append(f"({year})")
+        elif year:
+            citation_parts.append(f"({year})")
+        
+        citation_parts.append(f'"{title}"')
+        
+        if venue:
+            citation_parts.append(venue)
+        
+        citation = ". ".join(citation_parts) + "."
         
         # Determine date for filename
         if year and year.isdigit():
@@ -345,6 +360,10 @@ citation: '{html_escape(citation)}'
         md_filename = f"{talk_date}-{url_slug}.md"
         html_filename = f"{talk_date}-{url_slug}"
         
+        # Get URL and download link for talks
+        paper_url = get_paper_url(entry, bib_id)
+        download_link = get_download_link(entry, bib_id)
+        
         # Create markdown content
         md_content = f"""---
 title: "{title}"
@@ -354,13 +373,18 @@ permalink: /talks/{html_filename}
 venue: "{venue}"
 date: {talk_date}
 location: "{location}"
+citation: '{html_escape(citation)}'"""
+        
+        # Only add paperurl if there's a URL
+        if paper_url:
+            md_content += f"""
+paperurl: '{paper_url}'"""
+        
+        md_content += f"""
 ---
 
-{title}
-
-Given at {venue} ({year}).
+{download_link}
 """
-        
         # Write the file
         try:
             with open(f"../_talks/{md_filename}", 'w', encoding='utf-8') as f:

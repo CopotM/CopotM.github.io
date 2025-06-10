@@ -6,8 +6,7 @@ permalink: /talks/2023-01-01-A-behavioural-perspective-on-paradigmatic-structur
 venue: "Surrey Morphology Group, University of Surrey, Surrey, UK"
 date: 2023-01-01
 location: "Surrey, UK"
+citation: 'Maria Copot. (2023). &quot;A behavioural perspective on paradigmatic structure in inflection and derivation&quot;. Surrey Morphology Group, University of Surrey, Surrey, UK.'
 ---
 
-A behavioural perspective on paradigmatic structure in inflection and derivation
 
-Given at Surrey Morphology Group, University of Surrey, Surrey, UK (2023).
