@@ -234,8 +234,12 @@ def main():
         # Determine date for filename
         if year and year.isdigit():
             pub_date = f"{year}-01-01"
+            include_date = True
+            is_published = True
         else:
-            pub_date = "2099-01-01"  # For 'in press' etc.
+            pub_date = "2099-01-01"  # For filename sorting only
+            include_date = False  # Don't show date on website
+            is_published = False  # For "in press"/"accepted"
         
         md_filename = f"{pub_date}-{url_slug}.md"
         html_filename = f"{pub_date}-{url_slug}"
@@ -247,10 +251,16 @@ def main():
         md_content = f"""---
 title: "{title}"
 collection: publications
-permalink: /publication/{html_filename}
-excerpt: 'This paper is about...'
-date: {pub_date}
-venue: '{venue}'"""
+permalink: /publication/{html_filename}"""
+        
+        # Only add date if it's a real year (not "in press" or "accepted")
+        if include_date:
+            md_content += f"""
+date: {pub_date}"""
+        
+        md_content += f"""
+venue: '{venue}'
+published: {str(is_published).lower()}"""
         
         # Only add paperurl if there's a URL
         if paper_url:
