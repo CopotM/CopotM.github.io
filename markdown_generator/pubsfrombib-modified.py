@@ -296,17 +296,20 @@ citation: '{html_escape(citation)}'
         """Get venue information for talks"""
         fields = entry.fields
         howpublished = clean_field(fields.get('howpublished', ''))
+        booktitle = clean_field(fields.get('booktitle', ''))  # Add this line
         address = clean_field(fields.get('address', ''))
         organization = clean_field(fields.get('organization', ''))
-        
+
         venue_parts = []
         if howpublished:
-            venue_parts.append(howpublished)
+	        venue_parts.append(howpublished)
+        if booktitle:  # Add this condition
+        	venue_parts.append(booktitle)
         if organization and organization not in howpublished:
-            venue_parts.append(organization)
+        	venue_parts.append(organization)
         if address:
-            venue_parts.append(address)
-        
+        	venue_parts.append(address)
+
         return ", ".join(venue_parts)
     
     def get_talk_type(entry):
