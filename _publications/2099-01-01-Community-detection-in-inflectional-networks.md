@@ -7,6 +7,4 @@ published: false
 citation: 'Maria Copot, Andrea Sims. (accepted). &quot;Community detection in inflectional networks&quot;. <i>Proceedings of the Association for Cognitive Science</i>.'
 ---
 
-Maria Copot, Andrea Sims. (accepted). "Community detection in inflectional networks". <i>Proceedings of the Association for Cognitive Science</i>.
-
 

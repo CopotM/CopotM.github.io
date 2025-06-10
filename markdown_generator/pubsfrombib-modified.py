@@ -271,8 +271,6 @@ paperurl: '{paper_url}'"""
 citation: '{html_escape(citation)}'
 ---
 
-{citation}
-
 {download_link}
 """
         

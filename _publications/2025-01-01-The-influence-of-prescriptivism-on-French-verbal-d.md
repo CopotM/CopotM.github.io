@@ -9,6 +9,4 @@ paperurl: 'https://www.degruyterbrill.com/document/doi/10.1515/ling-2023-0028/ht
 citation: 'Maria Copot, Andrea Sims. (2025). &quot;The influence of prescriptivism on French verbal defectiveness&quot;. <i>Linguistics</i>.'
 ---
 
-Maria Copot, Andrea Sims. (2025). "The influence of prescriptivism on French verbal defectiveness". <i>Linguistics</i>.
-
 [Access paper here](https://www.degruyterbrill.com/document/doi/10.1515/ling-2023-0028/html)
