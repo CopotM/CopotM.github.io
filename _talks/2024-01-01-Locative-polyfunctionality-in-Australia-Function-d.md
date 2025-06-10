@@ -7,6 +7,7 @@ venue: "Canberra, Australia"
 date: 2024-01-01
 location: "Canberra, Australia"
 citation: 'Jayden Macklin-Cordes, Mitchell Browne, Thomas Ennever, Maria Copot. (2024). &quot;Locative polyfunctionality in Australia: Function distribution is not predicted by phylogeny or contact&quot;. Canberra, Australia.'
+paperurl: 'https://zenodo.org/records/14249060'
 ---
 
-
+[Access paper here](https://zenodo.org/records/14249060)
