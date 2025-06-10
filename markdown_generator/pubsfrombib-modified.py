@@ -274,8 +274,6 @@ citation: '{html_escape(citation)}'
 {citation}
 
 {download_link}
-
-Recommended citation: {citation}
 """
         
         # Write the file
