@@ -6,5 +6,3 @@ venue: 'Proceedings of the Association for Cognitive Science'
 published: false
 citation: 'Maria Copot, Andrea Sims. (accepted). &quot;Community detection in inflectional networks&quot;. <i>Proceedings of the Association for Cognitive Science</i>.'
 ---
-
-

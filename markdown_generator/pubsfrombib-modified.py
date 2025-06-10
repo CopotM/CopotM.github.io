@@ -270,8 +270,6 @@ paperurl: '{paper_url}'"""
         md_content += f"""
 citation: '{html_escape(citation)}'
 ---
-
-{download_link}
 """
         
         # Write the file

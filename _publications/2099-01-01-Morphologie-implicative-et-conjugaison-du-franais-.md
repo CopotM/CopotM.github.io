@@ -6,5 +6,3 @@ venue: 'Lexique'
 published: false
 citation: 'Sacha Beniamine, Olivier Bonami, Maria Copot. (in press). &quot;Morphologie implicative et conjugaison du français [Implicative morphology and French conjugation]&quot;. <i>Lexique</i>.'
 ---
-
-
